@@ -1,0 +1,134 @@
+    1  git config --global user.name "sema"
+    2  git config --global user.mail "semademir847@gmail.com"
+    3  ssh-keygen -t rsa 4096 -C "semademir847@gmail.com"
+    4  cat ~/.ssh/id_rsa.pub
+    5  ls -la ~/.ssh
+    6  ssh-keygen -t rsa -b 4096 -C "semademir847@gmail.com"
+    7  cat ~/.ssh/id_rsa.pub
+    8  ssh -T git@github.com
+    9  whoami
+   10  help
+   11  help cd
+   12  clear
+   13  pwd
+   14  cd desktop
+   15  ls
+   16  dir
+   17  cd dütdüt
+   18  pwd
+   19  cd..
+   20  cd ..
+   21  clear
+   22  touch deneme.txt
+   23  mkdir deneme
+   24  ls
+   25  cd deneme
+   26  touch deneme.txt
+   27  rm deneme.txt
+   28  rmdir deneme
+   29  clear
+   30  date
+   31  ping www.google.com
+   32  systeminfo
+   33  cd ..
+   34  cd sql
+   35  git init
+   36  git add .
+   37  git commit -m "ilk versiyon"
+   38  git config --global user.name cardeawelkin
+   39  git.config --global user.email semademir847@gmail.com
+   40  git config user.email semademir847@gmail.com
+   41  git commit -m "ilk versiyon"
+   42  git remote add origin https://github.com/cardeawelkin/uygulama.git
+   43  git push -u origin master
+   44  clear
+   45  git branch
+   46  git branch semma
+   47  git branch
+   48  git branch demir
+   49  git branch
+   50  git checkout semma
+   51  git checkout master
+   52  git branch
+   53  git add .
+   54  git commit -m "master ilk commit"
+   55  git checkout semma
+   56  git add .
+   57  git commit -m "semma commit"
+   58  git checkout master
+   59  git checkout semma
+   60  git add .
+   61  git commit -m "semma commit"
+   62  git checkout master
+   63  git merge semma
+   64  git add .
+   65  git commit -m "v2"
+   66  git push
+   67  git checkout semma
+   68  git merge master
+   69  git add .
+   70  git commit -m "son durum"
+   71  git branch
+   72  clear
+   73  git push
+   74  git push --set-upstream origin semma
+   75  git add .
+   76  git commit -m "son versiyon"
+   77  git push
+   78  git checkout master
+   79  git merge master
+   80  git checkout semma
+   81  git merge master
+   82  git push
+   83  clear
+   84  git clone https://github.com/cardeawelkin/uygulama.git
+   85  cd desktop
+   86  cd ..
+   87  git clone https://github.com/cardeawelkin/uygulama.git
+   88  cd desktop
+   89  cd odev
+   90  git config --global user.name cardeawelkin
+   91  git config --global user.email semademir847@gmail.com
+   92  git clone https://github.com/cardeawelkin/HW_10.git
+   93  cd HW_10
+   94  touch text_ignore.txt
+   95  echo "text_ignore.txt" >> .gitignore
+   96  git status
+   97  cat .gitignore
+   98  nano .gitignore
+   99  cat .gitignore
+  100  clear
+  101  cd desktop
+  102  cd odev
+  103  git config --global user.name cardeawelkin
+  104  git config --global user.email semademir847@gmail.com
+  105  git clone https://github.com/kullanici_adiniz/HW_10.git
+  106  cd HW_10
+  107  git clone https://github.com/cardeawelkin/HW_10.git
+  108  cd HW_10
+  109  touch text_ignore.txt
+  110  nano .gitignore
+  111  git status
+  112  git add .
+  113  git commit -m "gitignore dosyası güncellendi"
+  114  git push origin main
+  115  git status
+  116  touch main_test.txt
+  117  git add .
+  118  git commit -m "main_test.txt dosyası eklendi"
+  119  git push origin main
+  120  git branch develop
+  121  git checkout develop
+  122  touch develop_test.txt
+  123  git add .
+  124  git commit -m "develop_test.txt dosyası eklendi."
+  125  git status
+  126  git add .
+  127  git commit -m "develop_test dosyasına yazı yazıldı."
+  128  git push origin develop
+  129  git checkout main
+  130  git branch
+  131  git merge develop
+  132  git log
+  133  git push origin main
+  134  history > command_list.csv
